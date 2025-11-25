@@ -6,6 +6,7 @@ int main() {
     int age = 21;
     string Student_id = "6811830015";
     string name = "Theerapat Rangprasert";
+    float GPS = 2.88
 
     cout << "Student Profile" << endl;
     cout << "----------------------" << endl;
