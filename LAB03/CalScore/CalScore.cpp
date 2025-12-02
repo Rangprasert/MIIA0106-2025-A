@@ -1,19 +1,20 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
+#include <limits>
+
+
 int score;
 string StudentName;
+string StudentID;
 string GPA;
 int main()
 {
+	cout << "Enter your Student ID...";
+	cin >> StudentID;
 	cout << "Enter your name...";
 	cin >> StudentName;
 	cout << "Enter your Score...";
 	cin >> score; 
-	while (!(cin >> score)) {
-		cin.clear(); 
-		cin.ignore(numeric_limits<streamsize>::max(), '\n');
-		cout << "Invalid input! Please enter numeric score only: ";
-	}
 	if (score >= 90 && score <= 100) {
 		GPA = "A";
 	}
@@ -29,6 +30,6 @@ int main()
 	else{
 		GPA = "F";
 	}
-	cout << StudentName << "Total score is "<< score << " GPA is " << GPA << endl;
+	cout << StudentID <<" Your name " << StudentName << " Total score is " << score << " GPA is " << GPA << endl;
 }
 
