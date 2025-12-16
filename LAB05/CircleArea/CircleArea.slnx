@@ -6,5 +6,6 @@
   <Project Path="../MaxiMum/MaxiMum.vcxproj" />
   <Project Path="../Rectengle/Rectengle.vcxproj" />
   <Project Path="../SwapFunction/SwapFunction.vcxproj" />
+  <Project Path="../X!=0/X!=0.vcxproj" />
   <Project Path="CircleArea.vcxproj" />
 </Solution>

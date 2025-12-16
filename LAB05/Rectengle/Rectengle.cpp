@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int main()
+void Rectangle()
 {
 	double width;
 	double length;
@@ -13,3 +13,9 @@ int main()
 	double sum = width * length;
 	cout << "Rectangle area is  =" << sum  << endl;
 }
+int main()
+{
+	Rectangle();
+}
+
+
