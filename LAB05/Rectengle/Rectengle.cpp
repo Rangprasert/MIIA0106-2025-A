@@ -2,10 +2,10 @@
 #include <string>
 using namespace std;
 
-double width;
-double length;
 int main()
 {
+	double width;
+	double length;
 	cout << "Enter width"<<endl;
 	cin >> width;
 	cout << "Enter length" << endl;

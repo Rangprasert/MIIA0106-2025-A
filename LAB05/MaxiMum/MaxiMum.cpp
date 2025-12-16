@@ -1,29 +1,31 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int a, b, c;
-void MaxOfTree() {
-	cout << "Enter first number: ";
-	cin >> a;
-	cout << "Enter second number: ";
-	cin >> b;
-	cout << "Enter third number: ";
-	cin >> c;
 
-	int max;
-	if (a >= b && a >= c) {
-		max = a;
-	}
-	else if (b >= a && b >= c) {
-		max = b;
-	}
-	else {
-		max = c;
-	}
-	cout << "Maximum is = " << max << endl;
+int MaxOfThree(int x, int y, int z) {
+    int max;
+    if (x >= y && x >= z) {
+        max = x;
+    }
+    else if (y >= x && y >= z) {
+        max = y;
+    }
+    else {
+        max = z;
+    }
+    return max;
 }
-int main() {
-	MaxOfTree();
-	return 0;
 
+int main() {
+    int a, b, c;
+    int result;
+    cout << "Enter first number: ";
+    cin >> a;
+    cout << "Enter second number: ";
+    cin >> b;
+    cout << "Enter third number: ";
+    cin >> c;
+    result = MaxOfThree(a, b, c);
+    cout << "Maximum is = " << result << endl;
+    return 0;
 }

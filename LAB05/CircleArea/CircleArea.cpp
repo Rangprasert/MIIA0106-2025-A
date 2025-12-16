@@ -2,9 +2,10 @@
 #include <string>
 using namespace std;
 
-double radius;
+
 int main()
 {
+	double radius;
 	cout << "Enter the radius of the circle: ";
 	cin >> radius;
 	double area = 3.14159 * radius * radius;
