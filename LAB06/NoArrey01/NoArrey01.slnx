@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../Arrey 1/Arrey 1.vcxproj" />
+  <Project Path="../Arrey2/Arrey2.vcxproj" />
+  <Project Path="../DynamicArrey/DynamicArrey.vcxproj" />
+  <Project Path="NoArrey01.vcxproj" />
+</Solution>
