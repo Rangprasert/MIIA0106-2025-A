@@ -36,20 +36,32 @@ int main()
 		cout << "Enter student " << i + 1 << " id   : ";
 		cin >> id[i];
 		total[i] = 0.0;
-		for (int j = 0; j < M; j++)
+
+		int j = 0;
+		do	
 		{
 			cout << "Enter student " << i + 1 << " score" << (j + 1) << " : ";
 			cin >> score[i][j];
 			total[i] += score[i][j];
-		}
-		calculateGrade(total[i], grade[i]);
-		cout << "\n";
+			j++;
+		}while (j < M);
+			calculateGrade(total[i], grade[i]);
+			cout << "\n";
 	}
-	for (int i = 0; i < N; i++)
+	int i = 0;
+	while(i < N)
 	{
 		displayStudentInfo(name[i], id[i], total[i], grade[i]);
 		cout << "\n";
+		i++;
 	}
 
 	return 0;
 }
+
+
+
+
+
+
+
