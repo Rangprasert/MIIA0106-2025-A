@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../../LAB07/Address &amp; Pointer/Address &amp; Pointer.vcxproj" />
+  <Project Path="../../LAB07/ChangeValueByPointer/ChangeValueByPointer.vcxproj" />
+  <Project Path="../../LAB07/DescendingSort/DescendingSort.vcxproj" />
+  <Project Path="../../LAB07/Pointer&amp;Arrey/Pointer&amp;Arrey.vcxproj" />
+  <Project Path="../../LAB07/SwapWithPoiter/SwapWithPoiter.vcxproj" />
+  <Project Path="Pointer01.vcxproj" />
+</Solution>
