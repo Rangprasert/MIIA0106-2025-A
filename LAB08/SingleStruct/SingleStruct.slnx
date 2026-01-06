@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../Array + sortByID(Student[], size)/Array + sortByID(Student[], size).vcxproj" />
+  <Project Path="../ArreyOfStruct/ArreyOfStruct.vcxproj" />
+  <Project Path="../InputNestStructure/InputNestStructure.vcxproj" />
+  <Project Path="../NestStruct/NestStruct.vcxproj" />
+  <Project Path="../PointerToStruct/PointerToStruct.vcxproj" />
+  <Project Path="../StructToFunction/StructToFunction.vcxproj" />
+  <Project Path="SingleStruct.vcxproj" />
+</Solution>
