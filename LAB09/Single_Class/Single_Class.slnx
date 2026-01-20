@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../ArreyOfClassStudent/ArreyOfClassStudent.vcxproj" />
+  <Project Path="../Class+Method(BMI)/Class+Method(BMI).vcxproj" />
+  <Project Path="../ObjectToFunction/ObjectToFunction.vcxproj" />
+  <Project Path="../PointerToClass/PointerToClass.vcxproj" />
+  <Project Path="../SortObjectByID/SortObjectByID.vcxproj" />
+  <Project Path="Single_Class.vcxproj" />
+</Solution>
